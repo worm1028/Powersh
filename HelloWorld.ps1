@@ -1,2 +1,8 @@
-Write-Host 'hellow, World!'
-'Hello, World!' | Write-Host
+
+
+$wh = 'Hello, World!' | Write-Host
+$wo = 'Hello, World!' | Write-Output
+
+Get-Variable wh
+
+Get-Variable wo
